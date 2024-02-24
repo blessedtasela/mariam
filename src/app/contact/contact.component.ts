@@ -16,7 +16,7 @@ export class ContactComponent {
   contacts = [
     {
       'id': 1,
-      'url': 'Mariamisiaka96@gmail.com',
+      'url': 'mailto:Mariamisiaka96@gmail.com?subject=Book a call',
       'message': 'Email',
       'icon': 'mail'
     },
