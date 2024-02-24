@@ -2,4 +2,3 @@ npm i angular-feather
 npm i angular-feathernpm install feather-icons --save
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
-npm install ng2-page-scroll --save --force

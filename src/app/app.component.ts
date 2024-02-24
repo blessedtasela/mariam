@@ -10,7 +10,6 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { WorksComponent } from './works/works.component';
 import { FooterComponent } from './footer/footer.component';
 import { routes } from './app.routes';
-import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 
 @Component({
