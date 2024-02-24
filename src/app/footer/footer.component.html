@@ -1,0 +1,28 @@
+<section class="w-full bottom-0 text-sm">
+    <div class="bg-gray-950 rounded-b-md flex items-center justify-center h-14 md:h-12 lg:h-10">
+        <div class="grid grid-cols md:grid-cols-2 lg:grid-cols-3 mx-auto gap-2 lg:gap-0">
+            <div class="flex justify-center items-center">
+                <h3 class="text-white pl-5 hidden md:block">
+                    &copy;<span class="text-yellow-500 font-bold font-sans">Mariam.</span> All right reserved
+                </h3>
+            </div>
+            <div class="flex justify-center items-center">
+                <h3 class="text-white flex">
+                    <span class="block md:hidden mr-2">&copy;</span> Developed by
+                    <span class="ml-2 text-yellow-500 font-bold font-sans cursor-pointer" (click)="openBlessedTasela()">
+                        Blessed Tasela
+                    </span>
+                </h3>
+            </div>
+            <div class="flex justify-center items-center gap-2 items-center col-span-2 lg:col-span-1">
+                <div class="text-white grid grid-cols-6"   *ngFor="let contact of contacts">
+                    <a href="{{ contact.url }}" target="_blank" rel="noopener noreferrer">
+                        <div class="p-2 text-white font-bold font-sans rounded-md cursor-pointer">
+                            {{ contact.message }}
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

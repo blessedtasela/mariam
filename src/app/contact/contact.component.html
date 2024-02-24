@@ -1,0 +1,21 @@
+<section class="w-full h-full bg-gradient-to-b from-dark-blue via-blue-500 to-dark-blue">
+    <div class="text-center font-sans">
+        <h1 class="py-8 text-xl md:text-4xl text-center font-bold">
+            Reach out to me on my socials
+        </h1>
+        <div
+            class="gap-2 p-4 grid grid-cols-3 md:grid-cols-6 mt-20 text-gray-950">
+            <div class="w-auto flex-cols items-center justify-center rounded-md hover:scale-105"
+                *ngFor="let contact of contacts">
+                <div class="text-center p-2">
+                    <a href="{{ contact.url }}" target="_blank" rel="noopener noreferrer">
+                        <p class="p-2 py-2 text-white font-bold font-sans rounded-md cursor-pointer">
+                            {{ contact.message }}
+                        </p>
+                        <i-feather name="{{ contact.icon }}" class=" text-yellow-gold" style="width: 30px;"></i-feather>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
