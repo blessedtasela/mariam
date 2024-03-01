@@ -11,6 +11,7 @@ import { WorksComponent } from './works/works.component';
 import { FooterComponent } from './footer/footer.component';
 import { routes } from './app.routes';
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
+import { FaqsComponent } from './faqs/faqs.component';
 
 @Component({
   selector: 'app-root',
@@ -26,6 +27,7 @@ import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
     TestimonialsComponent,
     WorksComponent,
     FooterComponent,
+    FaqsComponent,
     ScrollToTopComponent,
     RouterModule,
   ],

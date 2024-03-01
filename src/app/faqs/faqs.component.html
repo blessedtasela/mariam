@@ -1,0 +1,16 @@
+<section class="w-full h-full bg-gradient-to-b from-dark-blue via-blue-500 to-dark-blue">
+    <div class="text-center font-sans">
+        <h1 class="py-8 text-xl md:text-4xl text-center font-bold capitalize">
+            FAQs
+        </h1>
+        <div class="gap-8 space-y-12 md:space-y-0 p-8 grid grid-cols mt-20 p-2 text-gray-950">
+            <div class="p-2 text-white text-justify" *ngFor="let faq of faqs">
+                <span class="text-gray-950 font-bold p-2 text-lg md:text-xl"> {{ faq.id }}.</span>
+                <span class="text-gray-950 font-bold p-2 text-lg md:text-xl italic"> {{ faq.question }}</span>
+                <div class="text-white flex-cols p-2 text-md md:text-lg">
+                    {{ faq.answer }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

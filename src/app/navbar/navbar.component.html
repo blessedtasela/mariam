@@ -5,7 +5,7 @@
     </div>
     <div class="flex items-center justify-center flex-1">
         <div class="hidden md:block">
-            <ul class="p-4 flex items-center gap-4 lg:gap-8 font-sans font-bold ">
+            <ul class="p-4 flex items-center gap-4 lg:gap-8 font-sans">
                 <li class="cursor-pointer hover:scale-105 hover:text-yellow-gold">
                     <a href="/#landing" (click)="scrollToComponent('landing')">
                         Know me
@@ -27,13 +27,18 @@
                     </a>
                 </li>
                 <li class="cursor-pointer hover:scale-105 hover:text-yellow-gold">
+                    <a href="/#projects" (click)="scrollToComponent('projects')">
+                        Projects
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-yellow-gold">
                     <a href="/#contact" (click)="scrollToComponent('contact')">
                         Contact
                     </a>
                 </li>
                 <li class="cursor-pointer hover:scale-105 hover:text-yellow-gold">
-                    <a href="/#projects" (click)="scrollToComponent('projects')">
-                        Projects
+                    <a href="/#faqs" (click)="scrollToComponent('faqs'); toggleMenu()">
+                        FAQs
                     </a>
                 </li>
             </ul>
@@ -112,13 +117,18 @@
                     </a>
                 </li>
                 <li class="cursor-pointer hover:scale-105 hover:text-yellow-gold">
+                    <a href="/#projects" (click)="scrollToComponent('projects')">
+                        Projects
+                    </a>
+                </li>
+                <li class="cursor-pointer hover:scale-105 hover:text-yellow-gold">
                     <a href="/#contact" (click)="scrollToComponent('contact'); toggleMenu()">
                         Contact
                     </a>
                 </li>
                 <li class="cursor-pointer hover:scale-105 hover:text-yellow-gold">
-                    <a href="/#projects" (click)="scrollToComponent('projects'); toggleMenu()">
-                        Projects
+                    <a href="/#faqs" (click)="scrollToComponent('faqs'); toggleMenu()">
+                        FAQs
                     </a>
                 </li>
             </ul>
